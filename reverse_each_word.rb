@@ -1,3 +1,3 @@
 reverse_each_word(sentence)
-  sentence.split
+  array = sentence.split(" ")
 end
