@@ -3,5 +3,6 @@ reverse_each_word(sentence)
   new_arr = []
   array.collect do |word|
     new_arr.push(word.reverse)
-  new_arr
+  end
+  new_arr.join()
 end
